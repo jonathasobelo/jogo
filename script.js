@@ -22,6 +22,13 @@ function criarCobrinha(){
     }
 
 }
+
+document.addEventListener('keydown', update);
+
+function update(event){
+    
+    
+}
 function iniciarJogo(){
     criarBG();
     criarCobrinha();
